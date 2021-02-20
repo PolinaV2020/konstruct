@@ -3,7 +3,6 @@
     padding-bottom: 50px;
   }
 
-
   .story__text {
     padding-right: 0px;
     width: 100%;
@@ -12,7 +11,6 @@
   .we-plan {
     margin-left: 0px;
   }
-
 
   .story__cards {
     width: 100%;
@@ -26,6 +24,7 @@
     padding-top: 40px;
   }
 
+
   .capabilities__content {
     display: flex;
     flex-direction: column;
@@ -36,10 +35,12 @@
     padding-top: 30px;
   }
 
+
   .capabilities__card--item {
     width: 30%;
     min-width: 270px;
   }
+
 
   .capabilities__text {
     width: 100%;
@@ -63,6 +64,10 @@
     width: 90%;
   }
 
+  .story {
+    padding-top: 40px;
+  }
+
   .capabilities__container {
     width: 90%;
     padding-bottom: 20px;
@@ -80,9 +85,6 @@
     margin-bottom: 15px;
   }
 
-  .story {
-    padding-top: 30px;
-  }
 
   .story__text--description {
     padding-top: 10px;
@@ -98,13 +100,12 @@
 
   .sign-up {
     flex-direction: column;
-    height: 130px;
+    height: 135px;
   }
 
 
   .sign-up__form--email {
-    width: 170px;
-    height: 38px;
+    width: 165px;
   }
 
   .sign-up__title {
@@ -120,16 +121,27 @@
 
 
 @media screen and (max-width:768px) {
+  .header {
+    height: 94vh;
+  }
+
+  .header__logo {
+    visibility: hidden;
+  }
+
   .header__title {
     padding-bottom: 20px;
     line-height: 40px;
   }
 
   .header__hamburger-menu {
-    display: block;
-    position: absolute;
-    margin-top: 10px;
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header__menu-logo {
+   margin-right: 30px;
   }
 
   .nav {
@@ -137,11 +149,11 @@
   }
 
   .capabilities__container {
-    padding-bottom: 0;
+    padding-bottom: 0px;
   }
 
   .get-in-touch__title {
-    padding-top: 5em;
+    padding-top: 4.5em;
   }
 
   .footer__company {
@@ -158,12 +170,16 @@
 
 
 
-
 @media screen and (max-width:576px) {
   .story__card-item {
-    margin-bottom: 5px;
-    margin-left: 5px;
+    margin-bottom: 3px;
+    margin-left: 3px;
   }
+
+  .story {
+    padding-top: 30px;
+  }
+
 
   .footer__company {
     width: 100%;
@@ -208,6 +224,16 @@
     height: 90%;
     padding-bottom: 0px;
   }
+
+  .sign-up__form--button {
+    padding: 9.9px 43.65px;
+  } 
+
+  .capabilities__button {
+    padding: 9.9px 26.1px;
+  }
+
+  .get-in-touch__button {
+   padding: 9.9px 23.4px;
+  }
 }
-
-

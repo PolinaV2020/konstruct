@@ -13,7 +13,7 @@ html {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1438px;
+  max-width: 1440px;
 }
 
 
@@ -22,7 +22,7 @@ html {
 .header {
   height: 100vh;
   width: 100%;
-  max-width: 1438px;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,17 +40,33 @@ html {
 
 .header__hamburger-menu {
   display: none;
-  position: fixed;
+  width: 100%;
+  height: 6vh;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+}
+
+
+.header__menu-logo {
+  width: 101.62px;
+  height: 23px;
+  cursor: pointer;
+}
+
+
+.header__hamburger-menu--item {
+  margin: 13px;
   top: 0;
   right: 0;
   width: 50px;
   height: 4px;
   background-color: black;
   cursor: pointer;
+  position: relative;
 }
 
 
-.header__hamburger-menu::before {
+.header__hamburger-menu--item::before {
   content: '';
   position: absolute;
   top: 0;
@@ -62,7 +78,7 @@ html {
 }
 
 
-.header__hamburger-menu::after {
+.header__hamburger-menu--item::after {
   content: '';
   position: absolute;
   top: 0;
@@ -435,7 +451,7 @@ html {
 
 .get-in-touch__title {
   max-width: 350px;
-  padding-top: 5.5em;
+  padding-top: 3em;
   font-family: "Open Sans", "Verdana", sans-serif;
   font-size: calc(25px + 5 * (100vw - 320px) / (1438 - 320));
   color: #48555B;
@@ -444,7 +460,7 @@ html {
 }
 
 .get-in-touch__button {
-  margin-top: 2rem;
+  margin-top: 2em;
   padding: 11px 26px;
   font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 13px;
@@ -494,14 +510,15 @@ html {
 }
 
 .sign-up__form--email {
-  border: none;
   padding: 11px 0px 11px 16px;
+  width: 250px;
   background-color: #FFFFFF;
-  outline: none;
   font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 17.7px;
   color: #48555B;
+  border: none;
+  outline: none;
 }
 
 
@@ -513,7 +530,7 @@ html {
   color: #FFFFFF;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  line-height: 17px;
+  line-height: 17.7px;
   border: none;
   background-color: #00A4E5;
   cursor: pointer;
