@@ -43,7 +43,7 @@
 
   .capabilities__text {
     width: 100%;
-    padding: 30px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
   }
 
 
@@ -93,7 +93,7 @@
   }
 
   .capabilities__title {
-    padding-right: 0;
+    padding: 0px 0px 20px 0px;
   }
 
   .sign-up {
@@ -104,11 +104,6 @@
 
   .sign-up__form--email {
     width: 170px;
-    height: 38px;
-  }
-
-  .button {
-    width: 130px;
     height: 38px;
   }
 
@@ -146,7 +141,7 @@
   }
 
   .get-in-touch__title {
-    padding-top: 4.5em;
+    padding-top: 5em;
   }
 
   .footer__company {

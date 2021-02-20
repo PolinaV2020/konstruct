@@ -1,4 +1,8 @@
 /*Basic styles*/
+html {
+  scroll-behavior: smooth;
+}
+
 
 * {
   margin: 0;
@@ -328,12 +332,12 @@
 }
 
 .capabilities__title::after {
-  position: absolute;
-  top: 35px;
-  left: 0;
-  content: '';
   width: 50px;
   height: 2px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  content: '';
   background-color: #00A4E5;
 }
 
@@ -348,8 +352,8 @@
 }
 
 .capabilities__button {
-  width: 150px;
-  height: 40px;
+  margin: 0 auto;
+  padding: 11px 29px;
   font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 13px;
   font-weight: 700;
@@ -393,7 +397,7 @@
 
 .capabilities__card--title {
   padding: 138px 23px 13px 0px;
-  font-style: 16px;
+  font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -441,8 +445,7 @@
 
 .get-in-touch__button {
   margin-top: 2rem;
-  width: 150px;
-  height: 40px;
+  padding: 11px 26px;
   font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 13px;
   font-weight: 700;
@@ -492,9 +495,7 @@
 
 .sign-up__form--email {
   border: none;
-  padding: 0px 4px;
-  width: 250px;
-  height: 40px;
+  padding: 11px 0px 11px 16px;
   background-color: #FFFFFF;
   outline: none;
   font-family: "Open Sans", "Verdana", sans-serif;
@@ -505,15 +506,14 @@
 
 
 .sign-up__form--button {
-  width: 150px;
-  height: 40px;
+  padding: 11px 48.5px;
   font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 13px;
   font-weight: 700;
   color: #FFFFFF;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  line-height: 18px;
+  line-height: 17px;
   border: none;
   background-color: #00A4E5;
   cursor: pointer;
@@ -600,12 +600,23 @@
 }
 
 
+.footer__link-list--box {
+  list-style: none;
+}
+
+
 .footer__link-list--item {
   font-size: 11px;
   letter-spacing: 0.846154px;
   line-height: 25px;
   list-style: none;
   text-transform: uppercase;
+}
+
+
+.footer__link-list--item:hover,
+.footer__link-list--item:active {
+  text-decoration: underline;
 }
 
 
