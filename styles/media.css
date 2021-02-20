@@ -41,12 +41,16 @@
     min-width: 270px;
   }
 
+  .capabilities__button {
+    margin-left: 0px;
+  }
+
 
   .capabilities__text {
     width: 100%;
+    margin-top: 20px;
     padding: 20px 0px 20px 0px;
   }
-
 
   .footer__social-media {
     margin-top: 20px;
@@ -156,6 +160,10 @@
     margin-bottom: 15px;
   }
 
+  .capabilities__text {
+    margin-top: 0px;
+  }
+
   .get-in-touch__title {
     padding-top: 4.5em;
   }
@@ -196,6 +204,7 @@
   .capabilities__card--item {
     width: 95%;
   }
+
 
   .get-in-touch__button {
    padding: 9.9px 23.4px;
