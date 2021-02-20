@@ -82,6 +82,7 @@
   }
 
   .capabilities__card--item {
+    width: 95%;
     margin-bottom: 15px;
   }
 
