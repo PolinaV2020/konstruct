@@ -86,7 +86,7 @@
   }
 
   .capabilities__card--item {
-    width: 95%;
+    width: 320px;
     margin-bottom: 15px;
   }
 
@@ -151,6 +151,11 @@
     padding-bottom: 0px;
   }
 
+  .capabilities__card--item {
+    width: 300px;
+    margin-bottom: 15px;
+  }
+
   .get-in-touch__title {
     padding-top: 4.5em;
   }
@@ -179,6 +184,7 @@
     padding-top: 30px;
   }
 
+
   .sign-up__form--button {
     padding: 9.9px 43.65px;
   } 
@@ -187,9 +193,14 @@
     padding: 9.9px 26.1px;
   }
 
+  .capabilities__card--item {
+    width: 95%;
+  }
+
   .get-in-touch__button {
    padding: 9.9px 23.4px;
   }
+
 
   .footer__company {
     width: 100%;
@@ -218,6 +229,7 @@
     padding-top: 40px;
     margin-top: 0px;
   }
+
 
   .footer__address {
     height: 10%;
