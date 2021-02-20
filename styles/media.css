@@ -3,9 +3,14 @@
     padding-bottom: 50px;
   }
 
+   .story__content {
+    padding-top: 40px;
+  }
+
+
   .story__text {
-    padding-right: 0px;
     width: 100%;
+    padding-right: 0px;
   }
 
   .we-plan {
@@ -14,14 +19,9 @@
 
   .story__cards {
     width: 100%;
+    padding-top: 15px;
     display: flex;
     justify-content: center;
-    padding-top: 15px;
-  }
-
-
-  .story__content {
-    padding-top: 40px;
   }
 
 
@@ -56,6 +56,10 @@
 
 
 @media screen and (max-width:992px) {
+  .header__title {
+   width: 100%;
+  }
+
   .nav__wrap {
     width: 90%;
   }
@@ -68,13 +72,13 @@
     padding-top: 40px;
   }
 
+  .story__text--description {
+    padding-top: 10px;
+  }
+
   .capabilities__container {
     width: 90%;
     padding-bottom: 20px;
-  }
-
-  .footer__wrap {
-    width: 90%;
   }
 
   .capabilities__cards {
@@ -86,24 +90,14 @@
     margin-bottom: 15px;
   }
 
-
-  .story__text--description {
-    padding-top: 10px;
-  }
-
-  .header__title {
-    width: 100%;
-  }
-
   .capabilities__title {
     padding: 0px 0px 20px 0px;
   }
 
   .sign-up {
-    flex-direction: column;
     height: 135px;
+    flex-direction: column;
   }
-
 
   .sign-up__form--email {
     width: 165px;
@@ -114,6 +108,10 @@
     padding-bottom: 15px;
   }
 
+  .footer__wrap {
+    width: 90%;
+  }
+
   .footer__contact-us--container {
     margin-right: 0px;
   }
@@ -122,6 +120,10 @@
 
 
 @media screen and (max-width:768px) {
+  .header__menu-logo {
+     margin-right: 30px;
+  }
+
   .header {
     height: 94vh;
   }
@@ -139,10 +141,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-
-  .header__menu-logo {
-   margin-right: 30px;
   }
 
   .nav {
@@ -181,6 +179,17 @@
     padding-top: 30px;
   }
 
+  .sign-up__form--button {
+    padding: 9.9px 43.65px;
+  } 
+
+  .capabilities__button {
+    padding: 9.9px 26.1px;
+  }
+
+  .get-in-touch__button {
+   padding: 9.9px 23.4px;
+  }
 
   .footer__company {
     width: 100%;
@@ -198,43 +207,25 @@
     padding-top: 40px;
   }
 
-
   .footer__contact-us--container {
     width: 100%;
     height: 198px;
     padding-top: 40px;
   }
 
-
-  .footer__social-media {
-    padding-top: 40px;
-  }
-
   .footer__social-media {
     width: 100%;
+    padding-top: 40px;
     margin-top: 0px;
   }
 
-
   .footer__address {
-    padding-top: 50px;
     height: 10%;
+    padding-top: 50px;
   }
 
   .footer__content {
     height: 90%;
     padding-bottom: 0px;
-  }
-
-  .sign-up__form--button {
-    padding: 9.9px 43.65px;
-  } 
-
-  .capabilities__button {
-    padding: 9.9px 26.1px;
-  }
-
-  .get-in-touch__button {
-   padding: 9.9px 23.4px;
   }
 }
