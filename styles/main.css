@@ -15,6 +15,24 @@ html {
 .wrapper {
   margin: 0 auto;
   max-width: 1440px;
+  font-family: "Open Sans", "Verdana", sans-serif;
+}
+
+.button {
+  font-size: 13px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #00A4E5;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button::hover,
+.button::active {
+   background-color: #32b1e3;
 }
 
 
@@ -113,14 +131,12 @@ html {
 .header__subtitle {
   width: 80%;
   text-align: center;
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: calc(13px + 3 * (100vw - 320px) / 1120);
   font-weight: 600;
 }
 
 
 .header__scroll-down {
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: calc(10px + 1 * (100vw - 320px) / 1120);
   font-weight: 600;
   text-transform: uppercase;
@@ -170,11 +186,10 @@ html {
  
 
 .nav__list-link {
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 12px;
   color: #48555B;
   font-weight: 600;
-  letter-spacing: 1.09091px;
+  letter-spacing: 1.09px;
   text-transform: uppercase;
   color: #48555B;
   text-decoration: none;
@@ -225,11 +240,10 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #48555B;
-  letter-spacing: 2.30625px;
+  letter-spacing: 2.3px;
   text-transform: uppercase;
 }
 
@@ -247,7 +261,6 @@ html {
 
 
 .story__text--title {
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 20px;
   color: #48555B;
   font-weight: 700;
@@ -273,7 +286,6 @@ html {
 
 .story__card-item {
   margin-left: 15px;
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 24px;
   color: #FFFFFF;
   font-weight: 800;
@@ -343,11 +355,10 @@ html {
 .capabilities__title {
   position: relative;
   padding-right: 155px;
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 18px;
   color: #48555B;
   font-weight: 700;
-  letter-spacing: 2.30625px;
+  letter-spacing: 2.3px;
   text-transform: uppercase;
 }
 
@@ -366,7 +377,6 @@ html {
 .capabilities__text {
   width: 44.7%;
   padding-right: 31.6px;
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 11px;
   color: #48555B;
   font-weight: 400;
@@ -377,22 +387,6 @@ html {
 .capabilities__button {
   margin: 0 auto;
   padding: 11px 29px;
-  font-family: "Open Sans", "Verdana", sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  color: #FFFFFF;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  border: none;
-  background-color: #00A4E5;
-  cursor: pointer;
-  outline: none;
-}
-
-
-.capabilities__button:hover,
-.capabilities__button:active {
-  background-color: #32b1e3;
 }
 
 
@@ -410,7 +404,6 @@ html {
   padding-left: 23px;
   display: flex;
   flex-direction: column;
-  font-family: "Open Sans", "Verdana", sans-serif;
   background-color: #FFFFFF;
   border: 1px solid #E6E6E6;
 }
@@ -462,7 +455,6 @@ html {
 .get-in-touch__title {
   max-width: 350px;
   padding-top: 3em;
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: calc(25px + 5 * (100vw - 320px) / 1120);
   color: #48555B;
   font-weight: 700;
@@ -473,23 +465,7 @@ html {
 .get-in-touch__button {
   margin-top: 2em;
   padding: 11px 26px;
-  font-family: "Open Sans", "Verdana", sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  color: #FFFFFF;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
   line-height: 18px;
-  border: none;
-  background-color: #00A4E5;
-  cursor: pointer;
-  outline: none;
-}
-
-
-.get-in-touch__button:hover,
-.get-in-touch__button:active {
-  background-color: #32b1e3;
 }
 
 
@@ -508,12 +484,11 @@ html {
 
 .sign-up__title {
   margin-right: 70px;
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 22px;
   color: #FFFFFF;
   font-weight: 700;
   line-height: 30px;
-  letter-spacing: 0.846154px;
+  letter-spacing: 0.85px;
   text-transform: capitalize;
 }
 
@@ -527,7 +502,6 @@ html {
   width: 250px;
   padding: 11px 0px 11px 16px;
   background-color: #FFFFFF;
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 14px;
   line-height: 17.7px;
   color: #48555B;
@@ -538,23 +512,8 @@ html {
 
 .sign-up__form--button {
   padding: 11px 48.5px;
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 13px;
-  font-weight: 700;
-  color: #FFFFFF;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
   line-height: 17.7px;
-  border: none;
-  background-color: #00A4E5;
-  cursor: pointer;
-  outline: none;
-}
-
-
-.sign-up__form--button:hover,
-.sign-up__form--button:active {
-  background-color: #32b1e3;
 }
 
 
@@ -565,7 +524,6 @@ html {
   padding: 42px 0px 23px 0px;
   display: flex;
   justify-content: center;
-  font-family: "Open Sans", "Verdana", sans-serif;
   color: #FFFFFF;
   background-color: #141A20;
   border: none;
@@ -603,7 +561,7 @@ html {
 .footer__contact-us--title {
   font-size: 11px;
   font-weight: 400;
-  letter-spacing: 0.846154px;
+  letter-spacing: 0.85px;
   line-height: 15px;
   text-transform: uppercase;
 }
@@ -724,11 +682,10 @@ html {
 }
 
 
-.footer__address {
+.footer__copyright {
   height: 20%;
   padding-top: 20px;
   text-align: center;
-  font-family: "Open Sans", "Verdana", sans-serif;
   font-size: 11px;
   line-height: 15px;
   letter-spacing: 0.846154px;
